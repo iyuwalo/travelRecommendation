@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom - Travel Recommendations</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                🌍 TravelBloom
+            </a>
+            
+            <!-- Navigation Links -->
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+            </div>
+            
+            <!-- Search Bar -->
+            <div class="search-container">
+                <input 
+                    type="text" 
+                    id="searchInput"
+                    placeholder="Enter a destination or keyword">
+                <button 
+                    onclick="performSearch()"
+                    class="search-btn">
+                    🔍 Search
+                </button>
+                <button 
+                    onclick="resetSearch()"
+                    class="clear-btn">
+                    Clear
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="social-icons">
+            <a href="#" class="social-icon">🐦</a>
+            <a href="#" class="social-icon">📘</a>
+            <a href="#" class="social-icon">📷</a>
+            <a href="#" class="social-icon">📺</a>
+        </div>
+        
+        <div class="hero-content">
+            <h1>EXPLORE DREAM DESTINATION</h1>
+            <p>The Travel Recommendations App helps users explore popular travel destinations through an interactive and user-friendly interface. It allows users to search for beaches, temples, countries, or specific country names to view related sites along with images and descriptions. The app dynamically fetches data from a structured JSON file to display relevant results. It provides a simple and efficient way to discover and plan travel destinations.</p>
+            <button class="book-now-btn">Book Now</button>
+        </div>
+    </section>
+    <!-- About Us Hero -->
+    <section class="hero about-hero">
+        <div class="hero-content">
+            <h1>ABOUT US</h1>
+        </div>
+    </section>
+
+    <!-- Company Information -->
+    <section class="about-section">
+        <div class="container">
+            <h2>Welcome to Our Company</h2>
+            <p>We are a team of passionate individuals dedicated to providing excellent services/products to our customers. Our mission is to provide the best experience for people traveling to different destinations around the world.</p>
+            <p>Feel free to explore our website to learn more about what we offer!</p>
+        </div>
+    </section>
+
+    <!-- Our Team -->
+    <section class="team-section">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-grid">
+                <!-- Team Member 1 -->
+                <div class="team-card">
+                    <div class="team-avatar">👨‍💼</div>
+                    <h3>John Doe</h3>
+                    <p class="role">CEO</p>
+                    <p>John is responsible for overall company strategy and vision.</p>
+                </div>
+                
+                <!-- Team Member 2 -->
+                <div class="team-card">
+                    <div class="team-avatar">👩‍💼</div>
+                    <h3>Celina Thomas</h3>
+                    <p class="role">Team Lead</p>
+                    <p>Celina leads the technical and operations team.</p>
+                </div>
+                
+                <!-- Team Member 3 -->
+                <div class="team-card">
+                    <div class="team-avatar">👨‍💼</div>
+                    <h3>Mike Tyson</h3>
+                    <p class="role">Delivery Head</p>
+                    <p>Mike manages project delivery and client relationships.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function performSearch() {
+            const query = document.getElementById('searchInput').value.trim();
+            if (query) {
+                alert(`Searching for: ${query}\n\n(Results will appear here in future versions)`);
+            } else {
+                alert("Please enter a destination or keyword to search.");
+            }
+        }
+
+        function resetSearch() {
+            document.getElementById('searchInput').value = '';
+        }
+    </script>
+</body>
+</html>
