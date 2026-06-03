@@ -57,21 +57,13 @@
             <button class="book-now-btn">Book Now</button>
         </div>
     </section>
-    <!-- About Us Hero -->
-    <section class="hero about-hero">
-        <div class="hero-content">
-            <h1>ABOUT US</h1>
-        </div>
-    </section>
-
-    <!-- Company Information -->
-    <section class="about-section">
-        <div class="container">
-            <h2>Welcome to Our Company</h2>
-            <p>We are a team of passionate individuals dedicated to providing excellent services/products to our customers. Our mission is to provide the best experience for people traveling to different destinations around the world.</p>
-            <p>Feel free to explore our website to learn more about what we offer!</p>
-        </div>
-    </section>
+   <!-- About Us Hero with Integrated Content -->
+<section class="hero about-hero">
+     <div class="about-content">
+        <h1>ABOUT US</h1>
+        <p>Welcome to Our Company. We are a team of passionate individuals dedicated to providing excellent services/products to our customers. Our mission is to provide the best experience for people traveling to different destinations around the world. Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in putting our customers first and working together to achieve our goals. Feel free to explore our website to learn more about what we offer!</p>
+    </div>
+</section>
 
     <!-- Our Team -->
     <section class="team-section">
@@ -105,6 +97,37 @@
         </div>
     </section>
 
+    <!-- Contact Hero Section -->
+    <section class="hero contact-hero">
+        <div class="social-icons">
+            <a href="#" class="social-icon">🐦</a>
+            <a href="#" class="social-icon">📘</a>
+            <a href="#" class="social-icon">📷</a>
+            <a href="#" class="social-icon">📺</a>
+        </div>
+        
+        <div class="hero-content">
+            <h1>CONTACT US</h1>
+            <p>Get in touch</p>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
     <script>
         function performSearch() {
             const query = document.getElementById('searchInput').value.trim();
@@ -120,4 +143,4 @@
         }
     </script>
 </body>
-</html>
+</html>  
