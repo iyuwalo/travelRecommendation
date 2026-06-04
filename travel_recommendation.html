@@ -42,6 +42,16 @@
         </div>
     </nav>
 
+    <!-- Search Results Section -->
+    <section class="results-section" id="resultsSection" style="display: none; padding: 60px 5%; background-color: #f8fafc;">
+        <div class="container">
+            <h2 id="resultsTitle">Travel Recommendations</h2>
+            <div class="results-grid" id="resultsGrid">
+                <!-- Results will be dynamically inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
     <!-- Hero Section -->
     <section class="hero">
         <div class="social-icons">
@@ -128,19 +138,6 @@
         </div>
     </section>
 
-    <script>
-        function performSearch() {
-            const query = document.getElementById('searchInput').value.trim();
-            if (query) {
-                alert(`Searching for: ${query}\n\n(Results will appear here in future versions)`);
-            } else {
-                alert("Please enter a destination or keyword to search.");
-            }
-        }
-
-        function resetSearch() {
-            document.getElementById('searchInput').value = '';
-        }
-    </script>
+    <script src="travel_recommendation.js"></script>
 </body>
 </html>  

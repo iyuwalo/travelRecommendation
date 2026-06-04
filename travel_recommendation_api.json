@@ -1,81 +1,108 @@
 {
-    "countries": [
+    "recommendations": [
       {
         "id": 1,
-        "name": "Australia",
-        "cities": [
-          {
-            "name": "Sydney, Australia",
-            "imageUrl": "enter_your_image_for_sydney.jpg",
-            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
-          },
-          {
-            "name": "Melbourne, Australia",
-            "imageUrl": "enter_your_image_for_melbourne.jpg",
-            "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
-          }
-        ]
+        "name": "Sydney Opera House",
+        "location": "Sydney, Australia",
+        "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+        "description": "Iconic performing arts centre and UNESCO World Heritage site.",
+        "category": "Landmark"
       },
       {
         "id": 2,
-        "name": "Japan",
-        "cities": [
-          {
-            "name": "Tokyo, Japan",
-            "imageUrl": "enter_your_image_for_tokyo.jpg",
-            "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
-          },
-          {
-            "name": "Kyoto, Japan",
-            "imageUrl": "enter_your_image_for_kyoto.jpg",
-            "description": "Known for its historic temples, gardens, and traditional tea houses."
-          }
-        ]
+        "name": "Great Barrier Reef",
+        "location": "Queensland, Australia",
+        "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5",
+        "description": "World's largest coral reef system, perfect for diving and snorkeling.",
+        "category": "Natural Wonder"
       },
       {
         "id": 3,
-        "name": "Brazil",
-        "cities": [
-          {
-            "name": "Rio de Janeiro, Brazil",
-            "imageUrl": "enter_your_image_for_rio.jpg",
-            "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
-          },
-          {
-            "name": "São Paulo, Brazil",
-            "imageUrl": "enter_your_image_for_sao-paulo.jpg",
-            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
-          }
-        ]
-      }
-    ],
-    "temples": [
-      {
-        "id": 1,
-        "name": "Angkor Wat, Cambodia",
-        "imageUrl": "enter_your_image_for_angkor-wat.jpg",
-        "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+        "name": "Eiffel Tower",
+        "location": "Paris, France",
+        "imageUrl": "https://images.unsplash.com/photo-1543349689-9a4d426bfdf7",
+        "description": "Iconic wrought-iron lattice tower and global cultural icon.",
+        "category": "Landmark"
       },
       {
-        "id": 2,
-        "name": "Taj Mahal, India",
-        "imageUrl": "enter_your_image_for_taj-mahal.jpg",
-        "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
-      }
-    ],
-    "beaches": [
-      {
-        "id": 1,
-        "name": "Bora Bora, French Polynesia",
-        "imageUrl": "enter_your_image_for_bora-bora.jpg",
-        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+        "id": 4,
+        "name": "Sydney Harbour Bridge",
+        "location": "Sydney, Australia",
+        "imageUrl": "https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9",
+        "description": "Famous steel arch bridge offering stunning views of the city.",
+        "category": "Landmark"
       },
       {
-        "id": 2,
-        "name": "Copacabana Beach, Brazil",
-        "imageUrl": "enter_your_image_for_copacabana.jpg",
-        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+        "id": 5,
+        "name": "Machu Picchu",
+        "location": "Cusco Region, Peru",
+        "imageUrl": "https://images.unsplash.com/photo-1587590227264-0b6c0a8c5c0e",
+        "description": "Ancient Incan citadel set high in the Andes Mountains.",
+        "category": "Historical"
+      },
+      {
+        "id": 6,
+        "name": "Bali Temples",
+        "location": "Bali, Indonesia",
+        "imageUrl": "https://images.pexels.com/photos/27375309/pexels-photo-27375309.jpeg",
+        "description": "Stunning Hindu temples surrounded by lush tropical landscapes.",
+        "category": "Cultural"
+      },
+      {
+        "id": 7,
+        "name": "Grand Canyon",
+        "location": "Arizona, USA",
+        "imageUrl": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+        "description": "Massive canyon carved by the Colorado River.",
+        "category": "Natural Wonder"
+      },
+      {
+        "id": 8,
+        "name": "Santorini",
+        "location": "Cyclades, Greece",
+        "imageUrl": "https://images.unsplash.com/photo-1613395877344-13d4a8e0d49a",
+        "description": "Beautiful white-washed buildings with blue domes overlooking the Aegean Sea.",
+        "category": "Romantic"
+      },
+      {
+        "id": 9,
+        "name": "Taj Mahal",
+        "location": "Agra, India",
+        "imageUrl": "https://images.unsplash.com/photo-1548013146-2a8c4f3b9f3e",
+        "description": "Iconic white marble mausoleum and symbol of love.",
+        "category": "Landmark"
+      },
+      {
+        "id": 10,
+        "name": "Banff National Park",
+        "location": "Alberta, Canada",
+        "imageUrl": "https://images.unsplash.com/photo-1544620347-c4fd70cbf3d0",
+        "description": "Stunning turquoise lakes surrounded by snow-capped mountains.",
+        "category": "Nature"
+      },
+      {
+        "id": 11,
+        "name": "Bora Beach",
+        "location": "French Polynesia",
+        "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503efbf",
+        "description": "Paradise island famous for its crystal clear lagoon and overwater bungalows.",
+        "category": "Beach"
+      },
+      {
+        "id": 12,
+        "name": "Copacabana Beach",
+        "location": "Rio de Janeiro, Brazil",
+        "imageUrl": "https://images.unsplash.com/photo-1519046904884-53103b34b206",
+        "description": "One of the most famous beaches in the world with vibrant atmosphere and beautiful scenery.",
+        "category": "Beach"
+      },
+      {
+        "id": 13,
+        "name": "Maldives Overwater Villas Beach",
+        "location": "Maldives",
+        "imageUrl": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd",
+        "description": "Luxurious tropical paradise with turquoise waters and stunning coral reefs.",
+        "category": "Beach"
       }
     ]
   }
-  
