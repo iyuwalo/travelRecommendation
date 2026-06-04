@@ -103,6 +103,22 @@
         "imageUrl": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd",
         "description": "Luxurious tropical paradise with turquoise waters and stunning coral reefs.",
         "category": "Beach"
+      },
+      {
+        "id": 14,
+        "name": "Angkor Wat",
+        "location": "Siem Reap, Cambodia",
+        "imageUrl": "https://images.pexels.com/photos/5739940/pexels-photo-5739940.jpeg",
+        "description": "World's largest religious monument and ancient Khmer temple complex.",
+        "category": "Temple"
+      },
+      {
+        "id": 15,
+        "name": "Golden Temple",
+        "location": "Amritsar, India",
+        "imageUrl": "https://images.pexels.com/photos/29429170/pexels-photo-29429170.jpeg",
+        "description": "The holiest Gurdwara and most sacred site for Sikhism, known for its golden architecture.",
+        "category": "Temple"
       }
     ]
   }
